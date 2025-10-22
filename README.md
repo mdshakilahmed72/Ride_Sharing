@@ -1,34 +1,34 @@
-# 🚗 Ride Sharing Management System — Console Based (Python)
+#  Ride Sharing Management System — Console Based (Python)
 
-## 📖 Overview
+##  Overview
 A **console-based Ride Sharing Management System** built entirely with **Object-Oriented Programming (OOP) in Python**.  
-It simulates real-life ride booking between **Riders** and **Drivers**, featuring **vehicle management**, **fare calculation**, **ride requests**, and **time tracking** — all using core Python classes and objects.
+It simulates real-life ride booking between **Riders** and **Drivers**, featuring **vehicle management**, **fare calculation**, **ride requests**, and **time tracking** all using core Python classes and objects.
 
-No external libraries required — perfect for learning **OOP concepts**, **class relationships**, and **inheritance** in Python.
+No external libraries required perfect for learning **OOP concepts**, **class relationships**, and **inheritance** in Python.
 
 ---
 
-## 🧠 Features
+##  Features
 
-### 👤 Rider
+###  Rider
 - Request a ride by specifying destination and vehicle type  
 - View assigned driver and ride details  
 - Track ride start and end time  
 - View total fare after ride completion  
 
-### 🚘 Driver
+###  Driver
 - Register with vehicle type (Car, Bike, or CNG)  
 - Accept ride requests automatically through the system  
 - Start and end rides  
 - Earn total income based on completed rides  
 
-### 🚗 Vehicle
+###  Vehicle
 - Each vehicle has:
   - **Type** (Car / Bike / CNG)  
   - **Base Fare per KM**  
   - **Driver assignment**  
 
-### 📦 Ride Request
+###  Ride Request
 - Rider sends a request to the system  
 - Ride Matching system searches for the nearest available driver  
 - Once matched, a new **Ride** object is created  
@@ -36,7 +36,7 @@ No external libraries required — perfect for learning **OOP concepts**, **clas
   - Distance  
   - Vehicle type  
 
-### 🕒 Ride (Trip)
+###  Ride (Trip)
 - Records:
   - **Start Location**
   - **End Location**
@@ -48,7 +48,7 @@ No external libraries required — perfect for learning **OOP concepts**, **clas
 
 ---
 
-## 💰 Fare Calculation Formula
+## Fare Calculation Formula
 ```python
 Fare = Distance (km) × Fare_per_km[vehicle_type]
 
